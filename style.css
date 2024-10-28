@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    background: #111;
+    background: #444;
 }
 
 header .logo {
@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 .hero {
-    height: 100vh;
+    height: 80vh;
     background: url('images/hero-background.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 .hero-text {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 10px;
 }
@@ -73,9 +73,30 @@ nav a:hover {
     background: #ff5722;
 }
 
+.services {
+    padding: 40px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
 footer {
     text-align: center;
     padding: 20px;
-    background: #111;
+    background: #444;
     color: #fff;
 }
