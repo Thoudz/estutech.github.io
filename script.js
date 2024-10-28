@@ -1,4 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Interatividade do site, animações ou outras funções podem ser adicionadas aqui
+    // Adicione interatividade aqui, como animações de scroll ou efeitos em botões
     console.log("Bem-vindo ao EstuTech!");
 });
