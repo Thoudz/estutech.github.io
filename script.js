@@ -3,8 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("Bem-vindo ao EstuTech!");
 });
 document.addEventListener("DOMContentLoaded", () => {
-    const intro = document.getElementById("intro");
-    setTimeout(() => {
-        intro.style.display = "none";
-    }, 3000); // Oculta após 3 segundos
+    const minigame = document.getElementById("minigame");
+    const logoGame = document.getElementById("logo-game");
+
+    logoGame.addEventListener("click", () => {
+        minigame.style.display = "none";
+    });
 });
+
